@@ -42,11 +42,10 @@
 
     <!-- Start Preloader 
     ============================================= -->
-
- <div id="preloader">
+<div id="preloader">
         <div id="ambrox-preloader" class="ambrox-preloader">
             <div class="animation-preloader">
-             <div class="spinner"></div>   
+                <div class="spinner"></div>   
                 <div class="txt-loading">
                     <span data-text-preloader="Z" class="letters-loading">
                         Z
@@ -66,9 +65,6 @@
                     <span data-text-preloader="a" class="letters-loading">
                         a
                     </span>
-
-
-
                     <span data-text-preloader="Z" class="letters-loading">
                         R
                     </span>
@@ -84,11 +80,6 @@
                     <span data-text-preloader="t" class="letters-loading">
                         E
                     </span>
-
-
-
-
-
                 </div>
             </div>
             <div class="loader">
@@ -108,7 +99,8 @@
                 </div>
             </div>
         </div>
-    </div>   
+    </div>
+
     <!-- End Preloader -->
 
 
@@ -1866,6 +1858,24 @@
         // Append the generated HTML to the container
         container.innerHTML = itemHTML;
 
+    </script>
+<script>
+        // This function will be called when the page is fully loaded
+        window.onload = function() {
+            // Add a time delay in milliseconds (e.g., 3000ms for 3 seconds)
+            var preloaderDelay = 3000;
+
+            // Get the preloader element by its ID
+            var preloader = document.getElementById("preloader");
+
+            // Function to hide the preloader after the specified time delay
+            function hidePreloader() {
+                preloader.style.display = "none";
+            }
+
+            // Set a timeout to hide the preloader after the delay
+            setTimeout(hidePreloader, preloaderDelay);
+        };
     </script>
 </body>
 
