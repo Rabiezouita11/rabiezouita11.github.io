@@ -10,7 +10,7 @@ I'm  passionate Software Developer (Java, Angular, express js, spring boot)
 
 ## Getting Started
 
-1. Clone this repository: `git clone https://github.com/your-username/your-portfolio.git`
+1. Clone this repository: `git clone (https://github.com/Rabiezouita11/rabiezouita11.github.io.git)`
 2. Open the project in your favorite code editor.
 3. Explore the `projects` directory to view the source code and assets for each project.
 4. To run the projects locally, simply open the HTML files in your web browser.
