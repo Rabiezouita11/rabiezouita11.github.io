@@ -21,6 +21,6 @@ I'm always looking to improve and learn from others. If you have any suggestions
 
 ## Contact
 
-You can reach me at [your.email@example.com](mailto:rabie.zouita@esprit.tn) or connect with me on [LinkedIn](https://www.linkedin.com/in/rabie-zouita-8a76a61bb/).
+You can reach me at [rabie.zouita@esprit.tn](mailto:rabie.zouita@esprit.tn) or connect with me on [LinkedIn](https://www.linkedin.com/in/rabie-zouita-8a76a61bb/).
 
 Happy coding! 🚀
