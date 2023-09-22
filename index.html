@@ -331,7 +331,7 @@
                             <div class="fun-factor-default">
                                 <div class="fun-fact">
                                     <div class="counter">
-                                        <div class="timer" data-to="14" data-speed="2000">14</div>
+                                        <div class="timer" data-to="15" data-speed="2000">15</div>
                                         <div class="operator">Projet</div>
                                     </div>
                                     <span class="medium">Projet terminé
@@ -1700,6 +1700,13 @@
     <script>
         // Assuming you have an array of objects containing the item details
         const items = [
+             {
+                span: "Creative",
+                title: "Eventiz",
+                image: "assets/Eventiz.png",
+                link: "https://github.com/Rabiezouita11/ProjectEvent",
+                video: "assets/aaa.mp4",
+            },
             {
                 span: "Creative",
                 title: "agriControl - Application Flutter",
@@ -1805,7 +1812,7 @@
                 (item) => `
     <div class="pf-item">
         <div class="overlay-content">
-            <img src="${item.image}" alt="thumb"  />
+            <img src="${item.image}" height="300" width="500" alt="Thumb">
             <div class="content">
                 <div class="title">
                     <span>${item.span}</span>
