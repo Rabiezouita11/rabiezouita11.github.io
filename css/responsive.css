@@ -1,0 +1,326 @@
+/* =================================================
+
+Template Name:  Natasha - Personal Responsive Bootstrap Template
+Author: MouriTheme
+Version: 1.0
+Design and Developed by: MouriTheme
+
+NB: This is the responsive stylesheet of this theme.
+
+=================================================== */
+
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .banner-area {
+        height: 100%;
+    }
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section-padding {
+        padding: 35px 0;
+    }
+
+    .navbar-nav {
+        margin: 15px 0;
+    }
+
+    .navbar-brand {
+        padding: 20px 0;
+    }
+
+    .navbar-nav > li > a {
+        line-height: 0;
+    }
+
+    .nav > li > a {
+        padding: 10px 8px;
+        font-size: 11px;
+    }
+
+    .text-affect, .typed-cursor {
+        font-size: 4.5em;
+    }
+
+    .mouse-icon {
+        bottom: -320px;
+    }
+
+    .banner-area {
+        height: 600px;
+    }
+    .about-right h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .about-text p {
+        line-height: 1.7em;
+    }
+
+    .single-services {
+        margin-bottom: 30px;
+    }
+
+    .testimonial-content p {
+        font-size: 16px;
+    }
+
+    .contact-area {
+        background-position: inherit;
+    }
+    .socials a {
+        height: 35px;
+        width: 35px;
+        font-size: 16px;
+        line-height: 2;
+    }
+    .socials {
+        margin-top: 30px;
+    }
+    .single-invite p {
+        width: 90%;
+    }
+    .services-content h3 {
+        line-height: 0.9;
+    }
+    .services-content h3 {
+        line-height: 0.9;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    .single-invite h2 {
+        font-size: 23px;
+        line-height: 35px;
+    }
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    .section-padding {
+        padding: 50px 0;
+    }
+
+    .section-header {
+        margin-bottom: 15%;
+    }
+
+    .section-header h2 {
+        font-size: 22px;
+    }
+
+    .navbar-toggle .icon-bar {
+        background: #E15F41;
+    }
+
+    .navbar-nav {
+        float: right;
+        margin: 11px 21px;
+        margin-right: 32%;
+        display: inherit;
+        width: 200px;
+        background-color: transparent;
+    }
+
+    .navbar-nav li {
+        float: left;
+        margin: 9px 50px;
+        display: inherit;
+        width: 100%;
+    }
+
+    .nav > li > a {
+        padding: 5px 10px;
+    }
+
+    .navbar-fixed-top .navbar-collapse {
+        height: 740px;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    .navbar-fixed-top .navbar-collapse {
+        max-height: 100%;
+    }
+
+    .sticky_navigation .nav li a {
+        color: #ffffff;
+    }
+
+    .mouse-icon {
+        bottom: -125px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .banner-btn a {
+        padding: 7px 20px;
+        letter-spacing: 0;
+    }
+
+    .socials {
+        text-align: center;
+        margin-top: 10%;
+    }
+    .socials li {
+        margin-right: 18px;
+    }
+
+    .socials a {
+        height: 35px;
+        width: 35px;
+        line-height: 2;
+        text-align: center;
+    }
+    .about-left {
+        box-shadow: none;
+    }
+    .about-right h1 {
+        border-left: none;
+        padding-left: 0;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .single-services {
+        margin-bottom: 30px;
+    }
+
+    .timeline::after {
+        margin-left: -33px;
+    }
+    .wrapper {
+        padding-left: 25px;
+        padding-right: 10px;
+    }
+    .wrapper::before {
+        left: 11px;
+        border: medium solid #000000;
+        border-color: transparent #000000 transparent transparent;
+    }
+    #resume h4 {
+        line-height: 25px;
+    }
+    #resume h5 {
+        margin-top: 15px;
+    }
+    .right::before {
+        border-width: 15px 15px 15px 0;
+    }
+    .wrapper::after {
+        top: 25px;
+    }
+
+    .single-testimonial {
+        margin: 0px 0px 30px 0px;
+    }
+
+    .testimonial-content p {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .contact-area .form-control {
+        font-size: 11px;
+    }
+
+    .contact-area {
+        background-position: inherit;
+    }
+
+    .single-invite h2 {
+        font-size: 18px;
+    }
+    .single-invite p {
+        width: 90%;
+    }
+    .gallery-items {
+        margin-bottom: 15px;
+    }
+    .welcome-text h2 {
+        font-size: 1.5em;
+    }
+    .text-affect, .typed-cursor {
+        font-size: 1.5em;
+    }
+
+    .timeline::after {
+        margin-left: -2px;
+    }
+    .single-invite h2 {
+        width: 90%;
+        margin: 0 auto 10px;
+    }
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .text-affect, .typed-cursor {
+        font-size: 1.5em;
+    }
+
+    .single-portfolio img {
+        width: 100%;
+    }
+
+    .navbar-toggle .icon-bar {
+        background: #E15F41;
+    }
+
+    .mouse-icon {
+        bottom: -300px;
+    }
+
+    .contact-area {
+        background-position: inherit;
+    }
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 767px){
+    .text-affect, .typed-cursor {
+        font-size: 2.5em;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px){
+    .text-affect, .typed-cursor {
+        font-size: 2.5em;
+    }
+}
+
+
+@media screen and (min-width: 600px){
+
+    .section-header h2 {
+        font-size: 26px;
+    }
+    .text-affect, .typed-cursor {
+        font-size: 3.5em;
+    }
+    .welcome-text h2 {
+        font-size: 3em;
+    }
+    .about-left img {
+        width: 100%;
+    }
+    .socials {
+        text-align: left;
+        margin-top: 45px;
+    }
+    .gallery-text h2 {
+        font-size: 20px;
+    }
+
+    .single-portfolio {
+        text-align: center;
+    }
+
+}
+
+
