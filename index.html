@@ -1102,7 +1102,7 @@
                                      </div>
 
                                      <h2>adresse</h2>
-                                     <p>tunisie, tunis
+                                     <p> <strong>tunisie, Aouina</strong> 
                                     </p> <!--edit here-->
                                  </div>
                              </div>
@@ -1145,10 +1145,16 @@
                        
 
             
+                    <div class="col-md-12" style="text-align: center;">
+                        <a target="_blank" href="mailto:rabiezouita82@gmail.com">   <button class="btn btn-send" value="">Contact par e-mail</button>  </a>
+                </div>
                                     <div class="col-md-12" style="text-align: center;">
-                                            <a href="mailto:rabiezouita82@gmail.com">   <button class="btn btn-send" value="">Envoyer un mail</button>  </a>
+                                        <a target="_blank" href="https://wa.me/21629708865?text=Bonjour,%20je%20souhaite%20vous%20contacter.%20Pouvons-nous%20discuter?">
+                                            <button class="btn btn-send" >Contacter via WhatsApp</button>
+                                        </a>
                                     </div>
-                             
+                                    
+                                    
 
                      
 
@@ -1159,7 +1165,7 @@
          </div>
 
     </div>
-    <a href="#home">
+    <a href="#home" id="back-to-top">
         <i class="fa fa-arrow-up"></i>
     </a>
     <style>
@@ -1189,7 +1195,19 @@
     <!--Footer Area Ends-->
 
 
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var backToTopButton = document.getElementById('back-to-top');
+    backToTopButton.addEventListener('click', function(event) {
+        event.preventDefault();
+        var targetElement = document.getElementById('home');
+        targetElement.scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
 
+</script>
 
     <!--Latest version JQuery-->
     <script src="js/jquery-3.2.1.min.js"></script>
