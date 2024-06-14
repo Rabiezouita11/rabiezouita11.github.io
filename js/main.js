@@ -12,8 +12,8 @@ $(document).ready(function () {
 
     $(function(){
        element.typed({
-           strings: ["DÉVELOPPEUR WEB FULL STACK.", "Freelaner."],
-           loop: true,
+        strings: [ "Freelaner.", "IOT.", "Full Stack Angular Spring Boot Node.js.", "Développeur PHP Laravel."],
+        loop: true,
            typeSpeed: 90
        });
     });
